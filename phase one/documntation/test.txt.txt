@@ -1,0 +1,17 @@
+# cost plan
+
+1. **aurduino mega** 350 LE
+
+2. **bluetooth module** 100 LE
+ 
+3. **servo motor** 60 LE
+
+4. **motor** 4*40 LE
+
+5. **wheel** 4*15 LE
+
+6. **ultrasonic sensor** 58 LE
+
+7. **recharge battery** 3*30 LE
+
+8.** motor driver** 50 LE
