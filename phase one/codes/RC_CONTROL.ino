@@ -122,8 +122,8 @@ void STOP()
 }
 void loop()
 {   
-  if(Serial.available())
-  {;}
+  if(Serial.available()>0)
+  {
   z=Serial.read();
 
      if(z=='F')
@@ -144,6 +144,6 @@ void loop()
         {backright();}
         else if(z=='S')
         {STOP();}   
-  
+  }
 }
 
