@@ -196,8 +196,8 @@ void loop() {
   digitalWrite(3, LOW);
   digitalWrite(2,HIGH);
 
-  if(Serial.available())
-         {;}
+  if(Serial.available()>0)
+  {
     z=Serial.read();
    if(z=='F')
      {forward();}
@@ -220,5 +220,5 @@ void loop() {
 
      SRVLTR();
      bistdirc();
-
+  }
 }
