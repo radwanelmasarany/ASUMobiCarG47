@@ -40,7 +40,8 @@ At the end of this project we will record a demo video illustrating all car appl
 - User can control car movement using mobile.
 - User can move the car forward, backward, left and right.
 - The car should avoid obstacles. 
-- Duedate:15/3/2018
+- Duedate:2/4/2018
 
-
+**Phase 1 video:**
+https://goo.gl/w2itFx
 
