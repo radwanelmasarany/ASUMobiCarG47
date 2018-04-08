@@ -1,1 +1,6 @@
+As for phase one we should be able to control the car by a mobile application, so to do that we used:
+1) 4-motor controlling: RC_CONTROL
+2) 2-motors: moving_car
+3) Ultrasonic & Servo: code 1-a
 
+And for the final code summing them all up, it is (final1).
