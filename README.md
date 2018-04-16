@@ -45,3 +45,8 @@ At the end of this project we will record a demo video illustrating all car appl
 **Phase 1 video:**
 https://goo.gl/w2itFx
 
+
+**Phase 2 :Line Tracking Application:**
+- prepare set of connected white sheets (2m x 2m) and draw track over it.
+- User submit Bluetooth command to put the car in line tracking mode.
+- When the car placed over the track it should follow the line.
