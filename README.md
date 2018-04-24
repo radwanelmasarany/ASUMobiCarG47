@@ -50,3 +50,7 @@ https://goo.gl/w2itFx
 - prepare set of connected white sheets (2m x 2m) and draw track over it.
 - User submit Bluetooth command to put the car in line tracking mode.
 - When the car placed over the track it should follow the line.
+
+
+**Phase 2 video:**
+https://goo.gl/46a2od
