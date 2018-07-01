@@ -54,3 +54,10 @@ https://goo.gl/w2itFx
 
 **Phase 2 video:**
 https://goo.gl/46a2od
+
+**Phase 3 :Accurate Movement Application:**
+- User should submit special Bluetooth command to put the car in accurate movement mode.
+- User can order the car to move forward or backward for certain length.
+- User can order the car to move right with proper angle.
+- While demo the car should move in infinity shape then rectangle shape then circle shape.
+- The car should stop for 25 seconds after finishing each shape.
