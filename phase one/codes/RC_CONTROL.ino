@@ -6,7 +6,9 @@ const int M5 = 6 ;      // MOTOR1 IS RIGHT FWD MOTOR
 const int M6 = 7 ;      // MOTOR2 IS RIGHT BACK MOTOR 
 const int M7 = 8 ;      // MOTOR3 IS LEFT BACK MOTOR 
 const int M8 = 9 ;      // MOTOR4 IS LEFT FWD MOTOR
-char z ;
+const int inspd1=10;
+char z,ip ;
+//const int inspd1=10;
 
 void setup()
 { pinMode (M1,OUTPUT);
@@ -18,6 +20,7 @@ void setup()
   pinMode (M7,OUTPUT);
   pinMode (M8,OUTPUT);
   Serial.begin(9600);
+//   pinMode(inspd1,OUTPUT);
 }
 void forward ()
 {  digitalWrite (M1,HIGH);         // MOTOR1 MOTOR2 MOTOR3 MOTOR4 ALL FWD 
@@ -127,14 +130,19 @@ void loop()
   z=Serial.read();
 
      if(z=='F')
-     {forward();}
+     {forward();
+     Serial.println('f');}
      else if(z=='B')
-     {backward();}
+     {backward();
+     Serial.println('b');}
      else if(z=='R')
-     {right();}
+     {right();
+     Serial.println('r');}
      else if(z=='L')
-     {left();}
-     else if(z=='G')
+     {left();
+     Serial.println('l');}
+     else if(z=='G'
+     )
      {forwardleft();}
       else if(z=='I')
       {forwardright();}
@@ -143,7 +151,11 @@ void loop()
         else if(z=='J')
         {backright();}
         else if(z=='S')
-        {STOP();}   
+          {STOP();}   
+  
+        
+        
+      
   }
 }
 

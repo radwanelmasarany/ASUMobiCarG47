@@ -1,11 +1,11 @@
-const int M1=3;
-const int M2=4;
-const int M3=5;
-const int M4=6;
+const int M1=2;
+const int M2=3;
+const int M3=4;
+const int M4=5;
 //definr sensers
-#define LEFT_SENSOR (30)
-#define MID_SENSOR (42)
-#define RIGHT_SENSOR (36)
+#define LEFT_SENSOR (11)
+#define MID_SENSOR (12)
+#define RIGHT_SENSOR (13)
 
 int SPEED=220;
 char DATA='0';

@@ -2,13 +2,17 @@ const int M1=2;
 const int M2=3;
 const int M3=4;
 const int M4=5;
+const int inspd1=10;
 char z;
+
+
 void setup() {
 
 pinMode (M1,OUTPUT);
   pinMode (M2,OUTPUT);
   pinMode (M3,OUTPUT);
   pinMode (M4,OUTPUT);
+   pinMode(inspd1,OUTPUT);
   Serial.begin(9600);
 }
 void forward ()
@@ -65,4 +69,8 @@ void loop() {
      {left();}
       else if(z=='S')
         {STOP();}   
+
 }
+
+
+
